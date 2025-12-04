@@ -3,9 +3,9 @@ pipeline {
 
     environment {
         REMOTE_USER = "ubuntu"
-        REMOTE_HOST = "3.110.121.35"
+        REMOTE_HOST = "13.232.162.109"
         REMOTE_DIR  = "/home/ubuntu/Jarvis-Desktop-Voice-Assistant"
-        CRED_ID     = "jarvis-ssh"
+        CRED_ID     = "devops-key"
         SERVICE_NAME = "jarvis"
         SSH_OPTS = "-o StrictHostKeyChecking=no"
     }
